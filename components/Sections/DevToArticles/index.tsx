@@ -8,7 +8,7 @@ import {
   Divider,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { Article } from 'types/article'
+import { Article } from '@/types/article'
 
 const DevToArticles = ({ articles }: { articles: Article[] }) => {
   const bg = useColorModeValue('blackAlpha.50', 'whiteAlpha.100')

@@ -16,9 +16,7 @@ import About from '@/components/Sections/About'
 import Experience from '@/components/Sections/Experience'
 import FeaturedWorks from '@/components/Sections/FeaturedWorks'
 import ScrollMore from '@/components/Misc/ScrollMore'
-import { useEffect, useState } from 'react'
 // These are on bottom sections so no need to render it instantly
-const DevToArticles = dynamic(() => import('@/components/Sections/DevToArticles'))
 const GetInTouch = dynamic(() => import('@/components/Sections/GetInTouch'))
 
 const Portfolio = () => {
