@@ -52,7 +52,7 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-        I am always open to new opportunities and collaborations. Whether it's about coding, work, movies, or even anime, I'm ready to engage and contribute. Feel free to connect with me on any of my social media platforms or send me an email. I'm looking forward to hearing from you!{' '}
+        I am always open to new opportunities and collaborations. Whether it{`&lsquo;`}s about coding, work, movies, or even anime, I{`&lsquo;`}m ready to engage and contribute. Feel free to connect with me on any of my social media platforms or send me an email. I{`&lsquo;`}m looking forward to hearing from you!{' '}
         <Link
           href="mailto:meenavishal2211@gmail.com"
           target="_blank"
