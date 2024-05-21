@@ -1,5 +1,3 @@
-import { Link } from '@chakra-ui/react'
-
 export type Company = 'PIMROfficial' | 'Tricrafters'
 
 export type CompanyDetail = {
@@ -50,7 +48,7 @@ export const Experiences: {
       </>,
     ],
   },
-  Tricrafters : {
+  Tricrafters: {
     name: 'Tricrafters Software Solution',
     longName: 'Tricrafters Software Solution',
     subDetail: 'Co-founder and Software Developer',
@@ -58,8 +56,8 @@ export const Experiences: {
     position: 'Co-founder',
     duration: 'May 2022 - Present',
     logo: {
-      light: 'https://res.cloudinary.com/do6j2zknr/image/upload/f_auto,q_auto/v1/TRICRAFTERS%20LOGO/tricrafters_logo_light',
-      dark: 'https://res.cloudinary.com/do6j2zknr/image/upload/f_auto,q_auto/v1/TRICRAFTERS%20LOGO/tricrafters_logo_dark',
+      light: 'https://res.cloudinary.com/dtezcrxpw/image/upload/f_auto,q_auto/v1/tricrafters%20logo/w3bcelwhahrnjtzkudjp',
+      dark: 'https://res.cloudinary.com/dtezcrxpw/image/upload/f_auto,q_auto/v1/tricrafters%20logo/w3bcelwhahrnjtzkudjp',
     },
     roles: [
       <>

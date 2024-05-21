@@ -21,7 +21,7 @@ import {
   SiNodedotjs,
   SiDocker,
   SiPostgresql
-  
+
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -50,7 +50,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I have been coding professionally for 3 years and am currently working as a Software Engineer && Freelancer && BTech CSE Student. My focus areas include software architecture, API development , backend communication and front-end integration. It{`&lsquo;`}s amazing how time flies!
+        I have been coding professionally for 3 years and am currently working as a Software Engineer && Freelancer && BTech CSE Student. My focus areas include software architecture, API development , backend communication and front-end integration. Its amazing how time flies!
         <br /> <br />
         Here are few technologies that are cup of my{' '}
         <Tooltip
