@@ -25,8 +25,8 @@ export const Experiences: {
     position: 'Developer and Administrator',
     duration: 'Jan 2022 - Present',
     logo: {
-      light: 'https://res.cloudinary.com/do6j2zknr/image/upload/f_auto,q_auto/v1/PIMR%20LOGO/m0fb03g22othhobct1qy',
-      dark: 'https://res.cloudinary.com/do6j2zknr/image/upload/f_auto,q_auto/v1/PIMR%20LOGO/m0fb03g22othhobct1qy',
+      light: 'https://res.cloudinary.com/dc7entfb0/image/upload/f_auto,q_auto/v1/our%20project/nwcpsqdeq0fxdaaiebv4',
+      dark: 'https://res.cloudinary.com/dc7entfb0/image/upload/f_auto,q_auto/v1/our%20project/nwcpsqdeq0fxdaaiebv4',
     },
     roles: [
       <>

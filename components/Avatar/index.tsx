@@ -11,8 +11,8 @@ import { useEffect } from 'react'
 import { avatarAnimation } from '@/config/animations'
 
 const AvatarImages = {
-  DarkMode: 'https://res.cloudinary.com/dsiivrxdk/image/upload/f_auto,q_auto/v1/myportfolio/rw2qkarvb7nlxujhiap0',
-  LightMode: 'https://res.cloudinary.com/dsiivrxdk/image/upload/f_auto,q_auto/v1/myportfolio/rw2qkarvb7nlxujhiap0',
+  DarkMode: 'https://res.cloudinary.com/dc7entfb0/image/upload/f_auto,q_40/v1/devolopers/cqjqrwz5ksn9kvpf5py6',
+  LightMode: 'https://res.cloudinary.com/dc7entfb0/image/upload/f_auto,q_40/v1/devolopers/cqjqrwz5ksn9kvpf5py6',
 }
 
 declare global {
@@ -50,23 +50,22 @@ const Avatar = () => {
         exit={{ opacity: 0 }}
       >
         <ChkImage
-        className='rounded-full outline-2 outline-white'
+          className='rounded-full outline-2 object-cover outline-white'
           src={imgAvatar}
-          alt="KL Lawingco Avatar"
+          alt="Vishal Meena"
           htmlWidth="250"
           htmlHeight="250"
           margin="auto"
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
         <Text textAlign="center" fontSize="smaller" variant="description">
-          Art by{' '}
           <Link
             href="https://x.com/vishalmeena111"
             target="_blank"
-            aria-label="KojiroArt"
+            aria-label="Vishal Meena"
             rel="noreferrer"
           >
-            Ankit
+            Vishal
           </Link>
         </Text>
       </MotionBox>

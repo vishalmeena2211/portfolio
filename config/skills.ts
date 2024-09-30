@@ -1,43 +1,36 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiGraphql,
   SiApollographql,
   SiPhp,
   SiReact,
-  SiNextDotJs,
+  SiNextdotjs,
   SiRedux,
-  SiStyledComponents,
-  SiGhost,
-  SiVueDotJs,
+  SiStyledcomponents,
   SiDocker,
   SiGooglecloud,
-  SiCpanel,
-  SiRancher,
   SiGitlab,
   SiPostgresql,
-  SiMicrosoftsqlserver,
   SiMysql,
   SiMongodb,
   SiRedis,
-  SiSocketDotIo,
-  SiMaterialUi,
+  SiSocketdotio,
   SiFramer,
   SiGit,
   SiGnubash,
   SiVisualstudiocode,
   SiUnity,
-  SiMicrosoft,
-  SiElectron,
+  SiShadcnui,
+  SiPrisma,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
 import { FaSourcetree } from 'react-icons/fa'
 import { IoLogoPwa } from 'react-icons/io5'
-import { DiDjango } from 'react-icons/di'
+import { DiDjango, DiMaterializecss } from 'react-icons/di'
 
 export type SkillCategory =
   | 'backend'
@@ -60,7 +53,7 @@ export const Skills: {
   backend: [
     {
       name: 'Node',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Javascript (ES6+)',
@@ -78,6 +71,10 @@ export const Skills: {
       name: 'Django',
       icon: DiDjango,
     },
+    {
+      name: 'SocketIO',
+      icon: SiSocketdotio,
+    },
   ],
   frontend: [
     {
@@ -86,16 +83,21 @@ export const Skills: {
     },
     {
       name: 'NextJS',
-      icon: SiNextDotJs,
+      icon: SiNextdotjs,
     },
-    
+
     {
       name: 'Redux',
       icon: SiRedux,
     },
-    
+
   ],
   database: [
+
+    {
+      name: 'Prisma ORM',
+      icon: SiPrisma,
+    },
     {
       name: 'PostgreSQL',
       icon: SiPostgresql,
@@ -111,30 +113,22 @@ export const Skills: {
     {
       name: 'Redis',
       icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
+    }
   ],
   cicd: [
     {
       name: 'Docker',
       icon: SiDocker,
     },
-    {
-      name: 'GitlabCICD',
-      icon: SiGitlab,
-    },
   ],
   'ui frameworks': [
     {
+      name: 'ShadCN',
+      icon: SiShadcnui,
+    },
+    {
       name: 'Styled Components',
-      icon: SiStyledComponents,
+      icon: SiStyledcomponents,
     },
     {
       name: 'Material Tailwind',
@@ -142,7 +136,7 @@ export const Skills: {
     },
     {
       name: 'MaterialUI',
-      icon: SiMaterialUi,
+      icon: DiMaterializecss,
     },
     {
       name: 'Framer Motion',
